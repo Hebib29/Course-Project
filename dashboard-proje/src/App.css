@@ -1,0 +1,37 @@
+.Content-all{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Dashboard{
+display: flex;
+gap: 20px;
+}
+
+.Dashboard-content{
+  background: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  width: 85%;
+  gap: 1.5rem;
+}
+
+.contenttwo{
+  display: flex;
+gap: 20px;
+}
+
+.contenttwo{
+  background: #fff;
+  border-radius: 20px;
+  padding: 2rem;
+  display: flex;
+  width: 85%;
+  gap: 1.5rem;
+}
+
+.card-content{
+  display: flex;
+}

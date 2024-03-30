@@ -1,0 +1,49 @@
+.Raport-list{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.List-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list, .lists, .lists2, .lists3, .lists4, .lists5, .lists6, .lists7 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 50px;
+    text-align: justify;
+    width: 950px;
+    
+    
+}
+
+.lists .text-cont-2{
+  margin-right: 10px;
+}
+
+.list h2, .lists h2, .lists2 h2, .lists3 h2, .lists4 h2, .lists5 h2, .lists6 h2, .lists7 h2 {
+    font-size: 20px;
+    color: #fff;
+}
+
+button{
+    background: yellow;
+}
+
+.text-cont h2, .list-content h2 {
+    font-size: 15px;
+    color: #fff;
+}
+
+.list-content {
+    display: flex;
+    gap: 5px;
+}
