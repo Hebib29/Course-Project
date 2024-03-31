@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Styles/Raportlist.css';
 import Screen1 from '../assets/Screen1.jpg';
 import Gadcet from '../assets/Gadcet.png'
 import Screnimage from '../assets/Screnimage.jpg';

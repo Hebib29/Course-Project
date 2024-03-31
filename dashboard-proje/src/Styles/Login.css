@@ -1,103 +1,134 @@
-.Container{
-    width: 500px;
-    background: black;
+.Container {
+  width: 100%;
+  height: 500px;
+  background: black;
 }
 
+.Text-concatenate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
 
-.Text-concatenate{
-    display: flex;
-    justify-content: center;
-   align-items: center;
-   text-align: center;
-   margin-top: 20px;
+.Text-button {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin-right: 5px;
+}
 
-  }
+.M-text {
+  font-size: 20px;
+  margin-right: 5px;
+}
 
-  .Text-button{
-    width: 20px;
-    height: 20px;
-    background-color: white;
-    margin-right: 5px;
-  }
+.Mg-text {
+  color: white;
+}
 
-  .M-text{
-    font-size: 20px;
-    margin-right: 5px;
-  }
+.text-top{
+  margin-left: 150px;
+}
 
-  .Mg-text{
-    color: white;
-  }
+.text-top p{
+  font-size: 60px;
+  margin-top: 10px;
+}
 
-  .Container h2{
-     font-size: 20px;
-     font-weight: bold;
-     color: white;
-  }
+.form-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .Container p{
-    font-size: 10px;
-    color: antiquewhite;
-    line-height: 10px;
-  }
+.Container h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
 
-  .Container label{
-    font-size: 12px;
-    color: white;
-  }
+.Container p {
+  font-size: 10px;
+  color: antiquewhite;
+  line-height: 10px;
+}
 
-  .Container input{
-    width: 220px;
-    background-color: black;
-    border: 1px solid white;
-    padding: 5px;
-    border-radius: 3px;
-  }
+.Container label {
+  font-size: 18px;
+  color: white;
+  display: flex; /* Labelleri yatay hizada tutmak için */
+  align-items: center; /* Labelleri dikeyde hizalamak için */
+}
 
+.Container input {
+  width: 300px;
+  background-color: black;
+  border: 1px solid white;
+  margin-top: 10px;
 
-  /* form-container */
+  padding: 5px;
+  border-radius: 3px;
+}
 
-  .form-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.input-1{
+  margin-left: 30px;
+}
 
-  .Cr-button{
-    width: 240px;
-    padding: 6px;
-    border-radius: 8px;
-    margin-top: 7px;
-    font-weight: bold;
-    background-color: yellow;
-    font-size: 13px;
-  }
+.Text-middle{
+  display: flex;
+  gap: 70px;
+  margin-left: 70px;
+}
 
-  .Google-button{
-    width: 240px;
-    padding: 6px;
-    border-radius: 8px;
-    margin-top: 7px;
-    font-weight: bold;
-    background-color: black;
-    font-size: 13px;
-    color: white;
-    border: 1px solid blueviolet;
-  }
+.Text-middle span{
+  color: antiquewhite;
+}
 
-.Google-button img{
+.Sign-btn {
+  width: 300px;
+  padding: 6px;
+  border-radius: 8px;
+  margin-top: 7px;
+  margin-left: 65px;
 
+  font-weight: bold;
+  background-color: yellow;
+  font-size: 13px;
+}
+
+.Google-button {
+  width: 300px;
+  padding: 6px;
+  border-radius: 8px;
+  margin-top: 10px;
+  margin-left: 60px;
+  font-weight: bold;
+  background-color: black;
+  font-size: 13px;
+  color: white;
+  border: 1px solid blueviolet;
+}
+
+.Google-button img {
   width: 10px;
   height: 10px;
 }
 
+.Text {
 
-  .Text{
-    text-align: center;
-    font-weight: bold;
-  }
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
 
-  .Sign-text{
-    color: blue;
-  }
+.text-left{
+  font-size: 15px;
+}
+
+.Sign-text {
+  color: blue;
+}

@@ -1,5 +1,6 @@
 .Raport-list{
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,6 +37,11 @@
 
 button{
     background: yellow;
+    
+}
+
+button h2{
+    color: black;
 }
 
 .text-cont h2, .list-content h2 {

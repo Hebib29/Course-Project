@@ -9,6 +9,8 @@ import './App.css';
 import Raportlist from './components/Raportlist'
 import Listcontent from './components/Listcontent'
 import Cards from './components/Cards'
+import Login from './components/Login'
+import Loginsidebar from './components/Loginsidebar'
 
 
 function App() {
@@ -46,6 +48,18 @@ function App() {
 
 </div>
 
+
+
+
+<div className='login-content'>
+  <Sidebar />
+
+  <div>
+    <Loginsidebar />
+  </div>
+</div>
+
+<Login />
     </div>
   
   )

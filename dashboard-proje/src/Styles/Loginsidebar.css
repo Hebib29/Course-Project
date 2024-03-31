@@ -1,0 +1,74 @@
+.Container-content{
+    position: relative;
+      margin-top: 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   width: 900px;
+   height: 600px;
+   background-color:#1c1a2e;
+  }
+  
+  .Container-content input{
+    background: black;
+  }
+  
+  .Container-content .Form-1{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .Container-content .Form-2{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .Container-content .Form-3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .Container-content .Form-4{
+    display: flex;
+    gap: 15px;
+  }
+  
+  .Container-content input{
+    width: 300px;
+    padding: 6px;
+  }
+  
+  .Container-content .input-box{
+    width: 500px;
+  }
+  
+  .Text-content{
+      display: flex;
+      flex-direction: column;
+  
+     
+  }
+  
+  .Form-box{
+    display: flex;
+    flex-direction: column;
+    column-gap: 15px;
+  }
+  
+  .Container-content .text-box{
+    position: absolute;
+    top: 40px;
+  }
+
+  .button-up{
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    width: 100px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background: green;
+  }

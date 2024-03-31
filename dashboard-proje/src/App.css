@@ -35,3 +35,7 @@ gap: 20px;
 .card-content{
   display: flex;
 }
+
+.login-content{
+  display: flex;
+}
